@@ -20,8 +20,10 @@ Você pode instalar todas as dependências necessárias executando o seguinte co
 pip install ebooklib reportlab lxml
 ```
 
+```bash
 projeto/
 │   main.py          - Script principal para conversão de EPUB para PDF.
 │   README.md        - Este arquivo.
 ├── input/           - Pasta onde os arquivos EPUB devem ser colocados para conversão.
 └── output/          - Pasta onde os arquivos PDF convertidos serão salvos.
+```
