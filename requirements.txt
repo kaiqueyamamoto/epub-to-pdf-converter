@@ -1,0 +1,8 @@
+chardet==5.2.0
+EbookLib==0.18
+lxml==5.1.0
+pillow==10.2.0
+reportlab==4.1.0
+setuptools==69.0.3
+six==1.16.0
+wheel==0.42.0

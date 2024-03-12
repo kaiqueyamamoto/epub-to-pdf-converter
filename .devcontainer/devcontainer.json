@@ -1,0 +1,17 @@
+{
+  "name": "Python 3.12.2 Alpine Project",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python"
+  ],
+  "forwardPorts": [
+    5000 // Substitua pelo(s) porta(s) que seu aplicativo usa, se aplicável
+  ],
+  "remoteUser": "root"
+}
